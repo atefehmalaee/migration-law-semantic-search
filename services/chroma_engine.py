@@ -1,3 +1,5 @@
+"""ChromaDB helpers for embedding, indexing, and querying documents."""
+
 import os
 from dotenv import load_dotenv
 import chromadb

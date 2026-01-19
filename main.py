@@ -1,3 +1,5 @@
+"""Entry point for running a sample semantic search query."""
+
 from services.chroma_engine import get_or_create_collection, add_documents_from_folder, query_documents
 
 # Step 1: Load or create collection
